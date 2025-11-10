@@ -1,0 +1,37 @@
+mern-ai-chatbot/
+├─ api/
+│ ├─ package.json
+│ ├─ Dockerfile
+│ ├─ .env.example
+│ ├─ src/
+│ │ ├─ server.js
+│ │ ├─ ws.js
+│ │ ├─ config.js
+│ │ ├─ models/
+│ │ │ ├─ User.js
+│ │ │ ├─ Session.js
+│ │ │ └─ Message.js
+│ │ ├─ providers/
+│ │ │ ├─ index.js
+│ │ │ ├─ mock.js
+│ │ │ └─ openai.js
+│ │ ├─ services/
+│ │ │ └─ chatService.js
+│ │ ├─ routes/
+│ │ │ ├─ auth.js
+│ │ │ └─ chat.js
+│ │ └─ utils/
+│ │ └─ tokenUtils.js
+│ └─ jest.config.js
+├─ client/
+│ ├─ package.json
+│ ├─ Dockerfile
+│ ├─ public/
+│ │ └─ index.html
+│ └─ src/
+│ ├─ index.js
+│ ├─ App.jsx
+│ └─ components/
+│ └─ Chat.jsx
+├─ docker-compose.yml
+└─ README.md
